@@ -1,0 +1,94 @@
+* Structure Overview
+** Run
+   Each run has:
+   - Distance
+   - Intensity (scale 1-10)
+   - Name
+   - Description
+**** TODO Type (Ask Tom)
+     Run types based off: https://www.runverity.com/different-types-of-runs
+     NOTE Types can have sub-types in a run dictionary format
+     - Recovery
+     - Base
+     - Long
+     - Progression
+     - Fartlek
+     - Hills
+     - Tempo
+     - Intervals
+** Week
+   Weeks consist of runs.
+   Weeks need to be the most adaptable components of a training plan.
+*** Weekly runs
+    Each run in a week will have:
+    - Auto-scheduled date & time
+      - E.g. Wednesday AM
+    - User-defined date & time (optional)
+      - If fits rules
+***** TODO Judging run proximity rules (ask Tom)
+      Two options:
+      1. Rules for proximity to other runs based off type.
+         - E.g. A long run may not follow an intervals run by less than 1.5 days
+         NOTE These are constant/defined by phase
+      2. Fatigue score for each run
+         - E.g. Similar to training peaks. Fatigue is accumulated by doing runs
+           and decays at a certain rate. Use regression algorithm to optimise
+           distribution of volume and intensity across the week.
+         - Has the advantage of being based off a single metric, independent of
+           what kind of run is going on. Also means it's easy to accurately carry
+           forward fatigue of previous weeks.
+         - Disadvantage is then have to figure out a decay rate & how much fatigue
+           each run gives. I expect this to be fiddly.
+    - Priority
+      Can be one of 3 types: High, med, low
+      - High
+        - Key run (s) for the week. Advise planning week around these & not
+          skipping/rearranging unless absolutely necessary.
+      - Med
+        - Important but can be rearranged to suit lifestyle without losing
+          good training distribution. Advised not to skip
+      - Low
+        - The easy/recovery runs. Exist to increase mileage rather than for
+          specific training effect. Can be rearranged or skipped with the most
+          freedom.
+***** TODO Easier alternative (Ask Tom)
+      - Either a lower intensity/volume version of the same run or a different,
+        easier type entirely
+*** Weekly schedule
+    How each run is initially scheduled
+***** TODO Priority-type (Ask Tom)
+      NOTE Possibly unnecessary complexity
+      - Volume first
+        - User prefers to get their weekly volume out of the way at the beginning
+          of the week
+      - Intensity first
+        - User prefers to get their intensity done early and leave the volume till
+          later in the week
+** Phase
+  Phases are decided based off number of weeks till next race, race type (A, B, ...) & race distance
+*** Races
+    - Type
+      The higher-priority the race, the longer the taper
+      - E.g. A race, B race
+    - Distance
+      Longer distance races require a longer build-up
+      - Custom entry as well as typical distances
+    - General 'about'
+      - E.g. Is this an organised race or personal target? Where's it happening?
+        What's the name of the race
+      - Target finish time
+        Target finish position
+*** TODO Phases (Ask Tom)
+**** Base 
+     Majority of the time. Mostly volume with limited speed stuff to keep it interesting
+**** Race-base
+     Similar to base, except less speed stuff
+**** Build
+     Starting to add in some higher intensity stuff
+**** Peak
+     Fastest, most intense running of race prep
+**** Taper
+     Getting fresh for race day
+
+  Users should have the ability to change the date/distance/whatever of their next event
+  and training plan should be able to account for that.
