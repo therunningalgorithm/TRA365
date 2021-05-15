@@ -15,6 +15,8 @@
 
 ## About
 
+The Running Algorithm is a company founded in 2020 and it creates custom training plans for runners. We are looking to update our plans into a 'virtual coach' which builds an adaptable training plan for runners to follow year round - hence '365'. For more information on TRA have a look at www.therunningalgorithm.com!
+
 ## Contributing
 
 ## Installation
