@@ -29,8 +29,6 @@ The administrators of this project are fairly busy moonlighting as academics, ho
 
 ## Roadmap
 
-## Contributing
-
 ## License
 
 GNU General Public License (GPL-3.0-or-later). See LICENSE
