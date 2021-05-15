@@ -24,7 +24,8 @@ The Running Algorithm is a company founded in 2020 and it creates custom trainin
 ## Usage
 
 ## Support
-The administrators of this project are fairly busy moonlighting as academics, however we can be reached. The best place to contact us is contact@therunningalgorithm.com - or just scream really loudly. 
+
+The administrators of this project are fairly busy moonlighting as academics, however we can be reached. The best place to contact us is contact@therunningalgorithm.com - or just scream really loudly.
 
 ## Roadmap
 
@@ -32,4 +33,4 @@ The administrators of this project are fairly busy moonlighting as academics, ho
 
 ## License
 
-Not yet specified.
+GNU General Public License (GPL-3.0-or-later). See LICENSE
