@@ -1,5 +1,6 @@
 site_name: The Running Algorithm Wiki
 nav:
   - Home: index.md
-  - About: about.md
+  - Research:
+      - "Training Load": "research/training_load.md"
 theme: readthedocs

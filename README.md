@@ -6,6 +6,7 @@
 ![GitHub](https://img.shields.io/github/license/therunningalgorithm/TRA365)
 ![GitHub release (latest SemVer including pre-releases)](https://img.shields.io/github/v/release/therunningalgorithm/TRA365?include_prereleases&sort=semver)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Documentation Status](https://readthedocs.org/projects/tra365/badge/?version=latest)](https://tra365.readthedocs.io/en/latest/?badge=latest)
 
 ![Twitter Follow](https://img.shields.io/twitter/follow/therunningalgo?style=social)
 
@@ -22,6 +23,11 @@ The Running Algorithm is a company founded in 2020 and it creates custom trainin
 ## Installation
 
 ## Usage
+
+Please visit our [readthedocs](https://tra365.readthedocs.io/) page to view the latest up-to-date documentation for
+this project.
+
+The docs are built using MkDocs, the cource code for which can be found in the `docs/` folder, should you wish to make changes.
 
 ## Support
 
