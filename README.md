@@ -24,6 +24,7 @@ The Running Algorithm is a company founded in 2020 and it creates custom trainin
 ## Usage
 
 ## Support
+The administrators of this project are fairly busy moonlighting as academics, however we can be reached. The best place to contact us is contact@therunningalgorithm.com - or just scream really loudly. 
 
 ## Roadmap
 
